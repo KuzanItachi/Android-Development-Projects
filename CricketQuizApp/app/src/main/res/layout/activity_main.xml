@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Cricket Quiz App"
+            android:layout_margin="16dp"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Who is the first player to score a double century in ODI Cricket?"
+            android:textSize="24sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <RadioButton
+                android:id="@+id/q1_a"
+                android:text="Sachin Tendulkar"
+                style="@style/mystyle" />
+            <RadioButton
+                android:id="@+id/q1_b"
+                style="@style/mystyle"
+                android:text="Rohit Sharma" />
+            <RadioButton
+                android:id="@+id/q1_c"
+                style="@style/mystyle"
+                android:text="Virendar Sehwag"
+                />
+            <RadioButton
+                android:id="@+id/q1_d"
+                style="@style/mystyle"
+                android:text="Brain Lara"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. A single player can bowl upto how many overs in T20 Cricket"
+            android:textSize="24sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <RadioButton
+                android:id="@+id/q2_a"
+                android:text="3"
+                style="@style/mystyle" />
+            <RadioButton
+                android:id="@+id/q2_b"
+                style="@style/mystyle"
+                android:text="4" />
+            <RadioButton
+                android:id="@+id/q2_c"
+                style="@style/mystyle"
+                android:text="5"
+                />
+            <RadioButton
+                android:id="@+id/q2_d"
+                style="@style/mystyle"
+                android:text="6"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Which of the following were the captain of their National Cricket Team in ODI ?(check all that apply)"
+            android:textSize="24sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/q3_a"
+            style="@style/mystyle"
+            android:text="MS Dhoni"
+            android:layout_marginTop="20dp"
+            />
+
+        <CheckBox
+            android:id="@+id/q3_b"
+            style="@style/mystyle"
+            android:text="Faf Du Plessis"
+            />
+
+        <CheckBox
+            android:id="@+id/q3_c"
+            style="@style/mystyle"
+            android:text="Steve Waugh"
+            />
+
+        <CheckBox
+            android:id="@+id/q3_d"
+            style="@style/mystyle"
+            android:text="Ravindra Jadega"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Who is the current coach of Australian Cricket Team?"
+            android:textSize="24sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <RadioButton
+                android:id="@+id/q4_a"
+                android:text="Mickey Arthur"
+                style="@style/mystyle" />
+            <RadioButton
+                android:id="@+id/q4_b"
+                style="@style/mystyle"
+                android:text="Justin Langer" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Who won the Women's World Cup 2017 in ODI Cricket?"
+            android:textSize="24sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <RadioButton
+                android:id="@+id/q5_a"
+                android:text="Australia"
+                style="@style/mystyle" />
+            <RadioButton
+                android:id="@+id/q5_b"
+                style="@style/mystyle"
+                android:text="India" />
+            <RadioButton
+                android:id="@+id/q5_c"
+                style="@style/mystyle"
+                android:text="England"
+                />
+            <RadioButton
+                android:id="@+id/q5_d"
+                style="@style/mystyle"
+                android:text="Pakistan"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Who is the captain of Indian Cricket Team?"
+            android:textSize="24sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/q6_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"
+            android:inputType="textMultiLine" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCORE"
+            android:textSize="24sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:id="@+id/your_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="24dp"
+            android:padding="24dp"
+            android:text="Check Score"
+            android:onClick="checkscore"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
